@@ -34,7 +34,7 @@
 		
 		<meta
 			property="og:image"
-			content="https://user-images.githubusercontent.com/87307678/128153149-dbf7e3fd-89b4-4bd6-ba1b-0fc0caa6ea70.png"
+			content="https://user-images.githubusercontent.com/87307678/128377902-da962284-10ee-4dc4-addb-039abcfe8349.PNG"
 		/>
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -116,7 +116,7 @@
 			</div>
 		</nav>
 		<section class="section">
-			<h1 class="title">인공지능 대학상 예측</h1>
+			<h1 class="title">인공지능이 말해주는 인재상</h1>
 			<h2 class="pt-5 subtitle">내가 받게될 대학합격서는?</h2>
 		</section>
 		<!-- <section class="youtube">
@@ -381,67 +381,94 @@
 				var resultMessege;
 				var resultTitle, resultExplain, resultCeleb;
 				var barWidth;
-
+				let url;
 				switch (prediction[0].className) {
 					case '포항공과대학교':
-						resultTitle = '"학문적 재능과 열정을 가진 과학공학계 글로벌 리더"';
+						resultTitle = '"학문적 재능과 열정을 가진 과학공학계 글로벌 리더상"';
 						resultExplain =
-							'당신은 포스텍(POSTECH)이 필요로하는 인재입니다. 포스텍은 우리나라와 인류사회 발전에 절실히 필요한 과학과 기술의 심오한 이론과 광범위한 응용방법을 깊이 있게 연구하고, 소수의 영재를 모아 질 높은 교육을 실시함으로써 지식과 지성을 겸비한 국제적 수준의 고급인재를 양성함과 아울러, 산·학·연 협동의 구체적인 실현을 통하여 연구한 결과를 산업체에 전파함으로써 사회와 인류에 봉사할 목적으로 설립되었습니다.';
-						resultCeleb = "포항공과대학교 입학처";
+							'당신은 포스텍(POSTECH)이 원하는 인재입니다. 1986년 대한민국 최초의 연구중심대학으로 설립된 포스텍은 세계혁신대학의 대표주자입니다. 학부생 1400여명의 비교적 작은 규모의 대학 구성원으로 장학금, 연구시설, 교수/학생비율에서 큰 강점을 가지고있습니다.  또한 2023년 의과대학원 개설 및 지속적인 경영 인프라 규모확대가 주목됩니다.';
+						
+						resultCeleb = "포항공과대학교 입학처 " 
+						url ="https://adm-u.postech.ac.kr/";
+						
 						break;
 					case 'KAIST':
 						resultTitle =
-							'"지식 탐구를 즐기며, 새로운 분야를 개척하는 열정과 도전 의지를 지닌 학생"';
+							'"새로운 분야를 개척하는 열정과 도전의지를 지닌 인재상"';
 						// resultTitle = "당신은 KAIST의 인재상입니다!"
 						resultExplain =
-							'당신은 KAIST가 필요로하는 인재입니다. 카이스트는 인류의 행복과 번영을 위한 과학기술혁신 대학의 비전을 가지고있습니다. 특징으로는 실용적 학문의 전통이 강하고, 전반적으로 수평적인 분위기 속에서 혁신적인 기술들을 창조해나간다. 또한 전 학부생에게 전액 장학금을 지급하는 파격적인 장학 혜택제공으로 수업료 부담이 없는것이 특징입니다.';
+							'당신은 KAIST가 원하는 인재입니다. 카이스트는 인류의 행복과 번영을 위한 과학기술혁신 대학의 비전을 가지고있습니다. 실용적 학문의 전통이 강하고, 전반적으로 수평적인 분위기 속에서 혁신적인 기술들을 창조해나간다는 특징이 있습니다. 명실상부 대한민국 최고의 과학기술대학원이며 세계적인 수준의 연구성과를 이루어가고 있어 그 미래가 기대되는 학교입니다.';
+						
+						resultCeleb = "KAIST 입학처 " 
+						url ="https://admission.kaist.ac.kr/";
+						
 
 						break;
 					case '고려대학교':
-						resultTitle = '"기본에 충실한 창의융합형 인재"';
-						resultExplain = '당신은 고려대학교가 필요로하는 인재입니다. ';
+						resultTitle = '"기본에 충실한 창의융합형 인재상"';
+						resultExplain = '당신은 고려대학교가 원하는 인재입니다. 기본에 충실한 창의융합형 인재란 지식 활용 능력, 논리적 분석력, 비판적 사고력, 독창성을 겸비한 인재를 가르킵니다. 고려대학교는 아시아 종합사립대중 최상위 대학이며, 국내에서 고려대 네임드의 영향력 또한 굉장합니다. 고려대는 2030년 창의적 미래 인재를 양성하고 세계를 변화시키는 대학이라는 비전을 가지고있습니다.';
+						
+						resultCeleb = "고려대학교 입학처 " 
+						url ="https://adm-u.postech.ac.kr/";
+						
 						break;
 					case '부산대학교':
 						resultTitle =
-							'"개방적이며 창조적 지식과 정보를 창출하여 국가를 위해 봉사하는 전문인"';
-						resultExplain = '당신은 부산대학교가 필요로하는 인재입니다. ';
+							'"개방적이며 창조적 지식과 정보를 창출하는 전문인상"';
+						resultExplain = '당신은 부산대학교가 원하는 인재입니다. 부산대학교는 통섭형 창의적 인재 양성, 융합연구 선도, 기부와 나눔의 실현 등을 통해 글로벌 100대 대학에 진입의 비전을 가지고있습니다. ';
+						resultCeleb = "부산대학교 입학처 " 
+						url ="https://go.pusan.ac.kr/intro.asp";
 
 						break;
 					case '서울대학교':
-						resultTitle = '"창의역량과 의지와 탈경계형 통합적 지성을 가진 착한인재"';
-						resultExplain = '당신은 서울대학교가 필요로하는 인재입니다.';
+						resultTitle = '"창의역량과 탈경계형 통합적 지성을 가진 착한인재상"';
+						resultExplain = '축하합니다! 당신은 서울대학교가 원하는 인재입니다. 대한민국 최초의 국립 고등교육기관으로 첫 장을 열었던 서울대학교는 현재 대한민국을 대표하는 세계적인 대학으로 자리매김하였습니다. 새로운 길을 가고 함께 가는 인재 양성, 담대한 진리 탐구와 사회 난제에 대한 협동 연구, 윤리와 다양성을 존중하며 소통하는 학문공동체의 비전을 가지고 있습니다.';
+						resultCeleb = "서울대학교 입학처 " 
+						url ="https://admission.snu.ac.kr/";
 
 						break;
 					case '성균관대학교':
-						resultTitle = '"사회문제해결의 새로운가치를 창조하는 글로벌 창조혁신리더"';
-						resultExplain = '당신은 성균관대학교가 필요로하는 인재입니다.';
+						resultTitle = '"새로운가치를 창조하는 글로벌 창조혁신리더상"';
+						resultExplain = '당신은 성균관대학교가 원하는 인재입니다. ';
+						resultCeleb = "포항공과대학교 입학처 " 
+						url ="https://admission.skku.edu/intro.html";
 
 						break;
 					case '연세대학교':
-						resultTitle = '"진리와 자유의 정신을 갖춘 글로벌 리더"';
-						resultExplain = '당신은 연세대학교가 필요로하는 인재입니다.';
+						resultTitle = '"진리와 자유의 정신을 갖춘 글로벌 리더상"';
+						resultExplain = '당신은 연세대학교가 원하는 인재입니다.';
+						resultCeleb = "연세대학교 입학처 " 
+						url ="https://admission.yonsei.ac.kr/seoul/admission/html/main/main.asp";
 
 						break;
 					case '이화여자대학교':
 						resultTitle =
-							' "폭넓은 교양지식과 목적의식을 가지고 미래를 개척해나가는 실천적 인재"';
-						resultExplain = '당신은 이화여자대학교가 필요로하는 인재입니다.';
+							' "폭넓은 교양지식과 목적의식을 가진 실천적 인재상"';
+						resultExplain = '당신은 이화여자대학교가 원하는 인재입니다.';
+						resultCeleb = "이화여자대학교 입학처 " 
+						url ="http://admission.ewha.ac.kr/enter/doc/intro.asp";
 
 						break;
 					case '중앙대학교':
 						resultTitle =
-							'"자신의 전공학문의 지식을 겸비하고 사회에 응용할 수 있는 인재"';
-						resultExplain = '당신은 중앙대학교가 필요로하는 인재입니다.';
+							'"자신의 전공학문의 지식을 겸비하고 사회에 응용하는 인재상"';
+						resultExplain = '당신은 중앙대학교가 원하는 인재입니다.';
+						resultCeleb = "포항공과대학교 입학처 " 
+						url ="http://admission.cau.ac.kr/main.htm";
 
 						break;
 					case '한양대학교':
-						resultTitle = '"지역사회와 국가, 나아가 인류사회의 번영에 공헌하는 인재"';
-						resultExplain = '당신은 한양대학교가 필요로하는 인재입니다.';
+						resultTitle = '"인류사회의 번영에 공헌하는 인재상"';
+						resultExplain = '당신은 한양대학교가 원하는 인재입니다.';
+						resultCeleb = "한양대학교 입학처 " 
+						url ="https://go.hanyang.ac.kr/gate.do?configPdsTf=N";
 
 						break;
 					case '유학파':
-						resultTitle = ' "성취동기가 강하고 문제해결 능력이 높은 외국형 천재"';
+						resultTitle = ' "성취동기가 강하고 문제해결 능력이 높은 천재상"';
 						resultExplain = '당신은 한국이 담을수 없는 세계적인재입니다.';
+						resultCeleb = "하버드대학교 입학처" 
+						url ="https://belmontabbeycollege.edu/mha-lead-gen-google-search/";
 
 						break;
 					default:
@@ -457,9 +484,12 @@
 					resultTitle +
 					'</div>';
 				var explain = "<div class='animal-explain pt-2'>" + resultExplain + '</div>';
-				var celeb = "<div class='animal-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
-				$('.result-message').html(title + explain + celeb);
+				// var celeb = "<div class='animal-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
+				var ul = "<div class='animal-celeb pt-2 pb-2'>" + resultCeleb.link(url) + "</div>"
+				
+				$('.result-message').html(title + explain + ul);
 
+		
 				for (let i = 0; i < 3; i++) {
 					if (prediction[i].probability.toFixed(2) > 0.1) {
 						barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%';
@@ -522,7 +552,11 @@
 					labelContainer.childNodes[i].innerHTML = label + bar;
 				}
 			}
+			
+			
 		</script>
+		
+						
 	</body>
 
 	<!-- Copyright (c) 2021 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
