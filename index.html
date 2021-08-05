@@ -144,13 +144,17 @@
 				</div>
 			</div>
 			<div class="file-upload-content">
-				<img class="file-upload-image" id="face-image" src="#" alt="your image" />
+				<img class="file-upload-image" id="face-image" src="#" alt="your image"/>
+				<img class="file-upload-image3" id="face-image" src="#" alt="your image" style="position:absolute; left:0; top: 35%; bottom: 0; right: 0; margin: auto;"/>		
 				<div id="loading" class="animated bounce">
 					<div class="spinner-border" role="status">
 						<span class="sr-only"></span>
 					</div>
 					<p class="text-center">AI가 당신의 인재상을 분석중입니다.</p>
 				</div>
+		
+				<img src="img/slide1.jpg" class="file-upload-image2">
+				
 				<p class="result-message"></p>
 				<div id="label-container" class="d-flex flex-column justify-content-around"></div>
 				<!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -316,6 +320,8 @@
 						$('.image-upload-wrap').hide();
 						$('#loading').show();
 						$('.file-upload-image').attr('src', e.target.result);
+						$('.file-upload-image3').attr('src', e.target.result).hide();
+						$('.file-upload-image2').hide();
 						$('.file-upload-content').show();
 						$('.image-title').html(input.files[0].name);
 					};
@@ -325,6 +331,9 @@
 						console.log('hello');
 						predict();
 						$('#loading').hide();
+						$('.file-upload-image').hide();
+						$('.file-upload-image3').show();
+						$('.file-upload-image2').show();
 					});
 					//predict();
 				} else {
@@ -382,6 +391,7 @@
 				var resultTitle, resultExplain, resultCeleb;
 				var barWidth;
 				let url;
+				let imgeurl;
 				switch (prediction[0].className) {
 					case '포항공과대학교':
 						resultTitle = '"학문적 재능과 열정을 가진 과학공학계 글로벌 리더상"';
@@ -390,6 +400,7 @@
 						
 						resultCeleb = "포항공과대학교 입학처 " 
 						url ="https://adm-u.postech.ac.kr/";
+						imgeurl = "https://user-images.githubusercontent.com/87307678/128377902-da962284-10ee-4dc4-addb-039abcfe8349.PNG";
 						
 						break;
 					case 'KAIST':
@@ -488,7 +499,7 @@
 				var ul = "<div class='animal-celeb pt-2 pb-2'>" + resultCeleb.link(url) + "</div>"
 				
 				$('.result-message').html(title + explain + ul);
-
+				$('.imgurl').html(imgeurl);
 		
 				for (let i = 0; i < 3; i++) {
 					if (prediction[i].probability.toFixed(2) > 0.1) {
