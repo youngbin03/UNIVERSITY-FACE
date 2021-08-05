@@ -55,3 +55,9 @@ To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://he
 ![고려대](https://user-images.githubusercontent.com/87307678/128424079-fec757dc-90a3-411b-a473-1dad30de1bf1.PNG)
 ![서울대](https://user-images.githubusercontent.com/87307678/128424085-0995e75b-c073-40fa-8a21-4a02bd4ddbec.PNG)
 
+
+![자퇴서](https://user-images.githubusercontent.com/87307678/128426283-82f667a7-6161-4137-8646-39917b3d75df.gif)
+![포항공대](https://user-images.githubusercontent.com/87307678/128426284-21919b0f-42b6-4dc4-97f5-9bd479daad0f.png)
+![하버드대](https://user-images.githubusercontent.com/87307678/128426289-c207c11a-06ea-4cd4-a000-31d03a5b2622.png)
+![kaist합격증](https://user-images.githubusercontent.com/87307678/128426290-a5b84041-e700-4cb5-9011-f5a5affc0366.png)
+
