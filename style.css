@@ -106,6 +106,17 @@ body {
   padding: 10px;
 
 }
+.file-upload-image2{
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.file-upload-image3{
+  max-height: 20%;
+  max-width: 20%;
+  margin: auto;
+}
 
 .try-again-btn {
   border-radius: 40px;
@@ -410,6 +421,7 @@ body {
 }
 .result-message {
     font-size: 2rem;
+	top: 5rem;
 }
 .animal-explain {
     font-size: 1.5rem;
