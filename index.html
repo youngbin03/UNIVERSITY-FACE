@@ -145,15 +145,17 @@
 			</div>
 			<div class="file-upload-content">
 				<img class="file-upload-image" id="face-image" src="#" alt="your image"/>
-				
+						
+				<div id="loading" class="animated bounce">
 					<div class="spinner-border" role="status">
 						<span class="sr-only"></span>
 					</div>
 					<p class="text-center">AI가 당신의 인재상을 분석중입니다.</p>
 				</div>
 		
-				<img src="img/slide1.jpg" class="file-upload-image2">
+				<img src="img/slide1.jpg" class="file-upload-image2" style="position:relative; z-index: 1">
 				<img class="file-upload-image3" id="face-image" src="#" alt="your image" style="position:absolute; left:0; top: 0 [of parent height]; bottom: 0 [of parent height]; right: 0; margin: 15rem auto; padding: 10px; z-index: 2; padding-top: 10%" />
+				
 				<p class="result-message"></p>
 				<div id="label-container" class="d-flex flex-column justify-content-around"></div>
 				<!-- Go to www.addthis.com/dashboard to customize your tools -->
