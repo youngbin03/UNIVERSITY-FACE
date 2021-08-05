@@ -45,3 +45,5 @@ goormIDE is a powerful cloud IDE service to maximize productivity for developers
 
 Visit [https://ide.goorm.io](https://ide.goorm.io) to support and learn more about using goormIDE.  
 To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
+
+![슬라이드1](https://user-images.githubusercontent.com/87307678/128377902-da962284-10ee-4dc4-addb-039abcfe8349.PNG)
