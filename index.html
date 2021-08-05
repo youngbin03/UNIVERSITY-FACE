@@ -460,7 +460,7 @@
 				var celeb = "<div class='animal-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
 				$('.result-message').html(title + explain + celeb);
 
-				for (let i = 0; i < 4; i++) {
+				for (let i = 0; i < 3; i++) {
 					if (prediction[i].probability.toFixed(2) > 0.1) {
 						barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%';
 					} else if (prediction[i].probability.toFixed(2) >= 0.01) {
