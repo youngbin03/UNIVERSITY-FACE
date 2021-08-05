@@ -379,7 +379,7 @@
 				prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
 				console.log(prediction[0].className);
 				var resultMessege;
-				var resultTitle, resultExplain;
+				var resultTitle, resultExplain, resultCeleb;
 				var barWidth;
 
 				switch (prediction[0].className) {
@@ -387,7 +387,7 @@
 						resultTitle = '"학문적 재능과 열정을 가진 과학공학계 글로벌 리더"';
 						resultExplain =
 							'당신은 포스텍(POSTECH)이 필요로하는 인재입니다. 포스텍은 우리나라와 인류사회 발전에 절실히 필요한 과학과 기술의 심오한 이론과 광범위한 응용방법을 깊이 있게 연구하고, 소수의 영재를 모아 질 높은 교육을 실시함으로써 지식과 지성을 겸비한 국제적 수준의 고급인재를 양성함과 아울러, 산·학·연 협동의 구체적인 실현을 통하여 연구한 결과를 산업체에 전파함으로써 사회와 인류에 봉사할 목적으로 설립되었습니다.';
-
+						resultCeleb = "포항공과대학교 입학처";
 						break;
 					case 'KAIST':
 						resultTitle =
@@ -457,7 +457,7 @@
 					resultTitle +
 					'</div>';
 				var explain = "<div class='animal-explain pt-2'>" + resultExplain + '</div>';
-
+				var celeb = "<div class='-animal-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
 				$('.result-message').html(title + explain);
 
 				for (let i = 0; i < 4; i++) {
