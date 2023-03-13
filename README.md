@@ -61,3 +61,5 @@ To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://he
 ![하버드대](https://user-images.githubusercontent.com/87307678/128426289-c207c11a-06ea-4cd4-a000-31d03a5b2622.png)
 ![kaist합격증](https://user-images.githubusercontent.com/87307678/128426290-a5b84041-e700-4cb5-9011-f5a5affc0366.png)
 ![부산대](https://user-images.githubusercontent.com/87307678/128426681-6fd06597-7331-45c1-bdaf-927af14beecf.png)
+
+![eos_app](https://user-images.githubusercontent.com/87307678/224671527-7b8734dc-a9cb-4381-914c-51edb6ee1b79.png)
