@@ -63,3 +63,5 @@ To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://he
 ![부산대](https://user-images.githubusercontent.com/87307678/128426681-6fd06597-7331-45c1-bdaf-927af14beecf.png)
 
 ![eos_app](https://user-images.githubusercontent.com/87307678/224671527-7b8734dc-a9cb-4381-914c-51edb6ee1b79.png)
+![ichang](https://github.com/youngbin03/university-face/assets/87307678/c2c7232e-a239-4996-a513-60b5d0da6e79)
+
