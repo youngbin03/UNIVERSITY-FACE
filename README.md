@@ -66,3 +66,4 @@ To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://he
 ![ichang](https://github.com/youngbin03/university-face/assets/87307678/c2c7232e-a239-4996-a513-60b5d0da6e79)
 
 ![ichangs](https://github.com/youngbin03/university-face/assets/87307678/3f991bf8-b284-4841-bef9-8933298df6d5)
+![KakaoTalk_20231203_015759409](https://github.com/youngbin03/university-face/assets/87307678/a869f471-6e32-4844-821b-a8208e1a88dc)
