@@ -1,17 +1,13 @@
 ## 인재상 테스트
 
 Teachable Machine 활용하여 인재상판단
-    <style>
-        .image-container {
-            display: flex;
-            justify-content: space-between;
-            margin: 20px; /* 간격 조절을 위한 마진 설정 */
-        }
-        </style><div class="image-container">
-<img src="https://github.com/youngbin03/UNIVERSITY-FACE/assets/87307678/18c04dc0-b614-4f31-9e5e-171a538ec063" width="200" height="400"/>
 
+<img src="https://github.com/youngbin03/UNIVERSITY-FACE/assets/87307678/18c04dc0-b614-4f31-9e5e-171a538ec063" width="200" height="400"/>
+<div             width: 200px;
+            height: 400px;
+></div>
 <img src="https://github.com/youngbin03/UNIVERSITY-FACE/assets/87307678/a9556820-aab3-4433-9a59-0a30ffa36381" width="200" height="400"/>
-</div>
+
 To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
 <details>
   <summary> 사진 </summary> 
