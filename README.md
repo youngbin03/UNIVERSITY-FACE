@@ -1,5 +1,7 @@
 ## 대학교 인재상 매칭
 
+Teachable Machine 활용하여 인재상판단
+
 To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
 <details>
   <summary> 사진 </summary> 
