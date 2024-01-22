@@ -1,7 +1,7 @@
 ## 인재상 테스트ㅡ
 
 Teachable Machine 활용하여 인재상판단
-<img src="[이미지주소](https://github.com/youngbin03/UNIVERSITY-FACE/assets/87307678/a9556820-aab3-4433-9a59-0a30ffa36381).png" width="200" height="400"/>
+<img src="https://github.com/youngbin03/UNIVERSITY-FACE/assets/87307678/a9556820-aab3-4433-9a59-0a30ffa36381" width="200" height="400"/>
 ![page_2](https://github.com/youngbin03/UNIVERSITY-FACE/assets/87307678/a9556820-aab3-4433-9a59-0a30ffa36381)
 ![page_1](https://github.com/youngbin03/UNIVERSITY-FACE/assets/87307678/18c04dc0-b614-4f31-9e5e-171a538ec063)
 
