@@ -1,6 +1,8 @@
 ## 대학교 인재상 매칭
 
 To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
+<details>
+  <summary> 사진 </summary> 
 
 ![슬라이드1](https://user-images.githubusercontent.com/87307678/128377902-da962284-10ee-4dc4-addb-039abcfe8349.PNG)
 ![한양대](https://user-images.githubusercontent.com/87307678/128423947-576d6609-e907-490f-b59d-ef05f09a8a9c.PNG)
@@ -18,6 +20,4 @@ To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://he
 ![kaist합격증](https://user-images.githubusercontent.com/87307678/128426290-a5b84041-e700-4cb5-9011-f5a5affc0366.png)
 ![부산대](https://user-images.githubusercontent.com/87307678/128426681-6fd06597-7331-45c1-bdaf-927af14beecf.png)
 
-![eos_app](https://user-images.githubusercontent.com/87307678/224671527-7b8734dc-a9cb-4381-914c-51edb6ee1b79.png)
-![ichang](https://github.com/youngbin03/university-face/assets/87307678/c2c7232e-a239-4996-a513-60b5d0da6e79)
-![ichangs](https://github.com/youngbin03/university-face/assets/87307678/3f991bf8-b284-4841-bef9-8933298df6d5)
+</details>
